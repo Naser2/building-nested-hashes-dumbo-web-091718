@@ -19,8 +19,8 @@ def bonus
       ]
    }
   }
- find_status = epic_tragedy[:montague][:hero].values  
-find_status[2] = 'dead'
+look = epic_tragedy[:montague][:hero].values
+look[2] = "dead"
  epic_tragedy[:capulet][:heroine][:status] = 'dead'
   #code your solution here
   
