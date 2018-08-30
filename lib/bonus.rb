@@ -22,7 +22,9 @@ def bonus
 # look = epic_tragedy[:montague][:hero].values
 # look[2] = "dead"
 # p look
-epic_tragedy[:montague][:hero][:status]
+p m = epic_tragedy[:montague][:hero].values_at(:status) 
+ m = 'dead'
+ p m
  epic_tragedy[:capulet][:heroine][:status] = 'dead'
   #code your solution here
   
